@@ -1,0 +1,5 @@
+.image{
+  height:50em; background-size:cover; width:100%;
+  background-image:url('src/app/images/food4.jpg');
+  background-position:center;
+}

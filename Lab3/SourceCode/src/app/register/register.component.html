@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12"><h4 class="text-left my-4"><dt>Register</dt></h4>
+
+    <div class="form-group">
+      <input type="text" class="form-control form-control-lg" name="fn" placeholder="First Name" [(ngModel)]="viewer.fn">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control form-control-lg"  name="ln" placeholder="Last Name" [(ngModel)]="viewer.ln">
+    </div>
+    <div class="form-group">
+      <input type="text" class="form-control form-control-lg" name="username" placeholder="Email Id" [(ngModel)]="viewer.username">
+    </div>
+    <div class="form-group">
+      <input type="password" class="form-control form-control-lg"  name="password" placeholder="Password" [(ngModel)]="viewer.password">
+    </div>
+    <div class="form-group">
+      <button type="button" class="btn btn-success width-100" (click)="register()">Register</button>
+    </div>
+    <div class="register-link-parent">
+      <a routerLink="/" class="register-link"><h5>Already Signed Up? Login Here</h5></a>
+    </div>
+
+    </div>
+  </div>
+</div>
